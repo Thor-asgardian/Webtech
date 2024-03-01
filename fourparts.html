@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Frames</title>
+    <style>
+        .class1{
+            background-color: aqua;
+        }
+        .class2{
+            background-color: black;
+        }
+        .class3{
+            background-color: wheat;
+        }
+        .class4{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<frameset rows="50%,50%">
+    <frameset cols="50%,50%">
+        <frame name="top" class="class1"></frame>
+        <frame name="top" class="class2"></frame>
+    </frameset>
+    <frameset cols="50%,50%">
+        <frame name="left" class="class3"></frame>
+        <frame name="main" class="class4"></frame>
+    </frameset>
+    <noframes>
+        <body>Your browser does not support frames.</body>
+    </noframes>
+</frameset>
+
+</html>
