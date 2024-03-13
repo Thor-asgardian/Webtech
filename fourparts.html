@@ -4,16 +4,19 @@
 <head>
     <title>HTML Frames</title>
     <style>
-        .class1{
+        .class1 {
             background-color: #FF671F;
         }
-        .class2{
+
+        .class2 {
             background-color: #fff;
         }
-        .class3{
+
+        .class3 {
             background-color: wheat;
         }
-        .class4{
+
+        .class4 {
             background-color: #03a35f;
         }
     </style>
@@ -21,12 +24,12 @@
 
 <frameset rows="50%,50%">
     <frameset cols="50%,50%">
-        <frame class="class1"></frame>
-        <frame class="class2"></frame>
+        <frame class="class1" src="about:blank">
+        <frame class="class2" src="download.png" >
     </frameset>
     <frameset cols="50%,50%">
-        <frame name="left" class="class3"></frame>
-        <frame name="main" class="class4"></frame>
+        <frame name="left" class="class3" src="about:blank">
+        <frame name="main" class="class4" src="about:blank">
     </frameset>
     <noframes>
         <body>Your browser does not support frames.</body>
